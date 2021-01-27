@@ -1,4 +1,4 @@
-FROM docker.io/library/nginx:latest
+FROM library/nginx:latest
 
 WORKDIR /app/golang-app
 COPY golang-app  /app/golang-app/
